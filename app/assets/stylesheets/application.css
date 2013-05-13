@@ -19,3 +19,7 @@ body {
 .edit_user .help-block {
 	font-style: italic;
 }
+
+.alert {
+	margin-top: 10px;
+}
