@@ -3,6 +3,9 @@ conor:
   last_name: "Wyse"
   email: "conor@xs4all.nl"
   profile_name: "basketcase"
-#  password: "password"
-#  password_confirmation: "password"
- 
+
+jim:
+    first_name: "Jim"
+    last_name: "Hoskins"
+    email: "Jim@Hoskins.com"
+    profile_name: "jimhoskins"
