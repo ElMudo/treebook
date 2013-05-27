@@ -3,6 +3,7 @@ conor:
   last_name: "Wyse"
   email: "conor@xs4all.nl"
   profile_name: "basketcase"
+  encrypted_password: "$2a$10$BRqpYGkTD7nbL.nuSeHLQeygGuN5o81bltxLTe5tfCRDeBVyUlqYK"
 
 jim:
     first_name: "Jim"
