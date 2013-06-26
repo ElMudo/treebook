@@ -52,15 +52,15 @@ class UserTest < ActiveSupport::TestCase
     end
   end
   
-  test "that creatomg friendships on a user works" do
-    users(:conor).friends << users(:mike)
-    users(:conor).friends.reload
-    assert users(:conor).friends.include?(users(:mike))
+  test "that creating friendships on a user works" do
+    users(:conor).pending_friends << users(:mike)
+    users(:conor).pending_friends.reload
+    assert users(:conor).pending_friends.include?(users(:mike))
   end
   
-  test "that creatomg a friendship based on user id and friend id works" do
+  test "that creating a friendship based on user id and friend id works" do
     UserFriendship.create user_id: users(:conor).id, friend_id: users(:mike).id
-    assert users(:conor).friends.include?(users(:mike))
+    assert users(:conor).pending_friends.include?(users(:mike))
   end
   
   test "that calling to_param on a user returns the profile_name" do
