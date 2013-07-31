@@ -11,7 +11,16 @@ Twitter Bootstrap, and a variety of Ruby Gems (Devise, Draper, State Machine, Sh
 Factory Girl, …).
 
 
-==+ Notes
+=== Notes
 
 Even though test driven development was used, the application has a few faults. Apart
-from the bugs, it has very limited functionality. 
+from these bugs, it has very limited functionality. But don't forget, this is not
+meant to be a practical application, it is just a vehicle for helping people learn
+Rails.
+
+Everything was typed in by hand as this is a better way of learning than just observing.
+
+I can highly recommend these two courses from Treehouse and I expect the follow-up
+course to be just as good.
+
+The application has been deployed on Heroku[http://conorstreebook.herokuapp.com/].
